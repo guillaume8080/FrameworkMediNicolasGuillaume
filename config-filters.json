@@ -1,0 +1,14 @@
+{
+    "steps" : {
+        "1": {
+            "filter": "<filter_1>",
+            "params" : ['<extra_param_1>' , '<extra_param_2>' , ...],
+            "next": "2"
+        },
+        "2": {
+            "filter": "<filter_2>",
+            "params" : ['<extra_param_1>' , '<extra_param_2>' , ...],
+            "next": "3"
+        }
+    }
+}    
