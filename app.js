@@ -9,6 +9,8 @@ filesystem.readdirSync(dir).forEach(function(file) {
 
     if (stat && stat.isDirectory()) {
         results = results.concat(_getAllFilesFromFolder(file))
-    } else results.push(file);
+    } else {
+        results.push(require(file));
+    } 
 
 });
