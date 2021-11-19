@@ -1,0 +1,19 @@
+{
+  "name": "frameworkmedinicolasguillaume",
+  "version": "1.0.0",
+  "description": "Membres : Medi Guillaume Nicolas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaume8080/FrameworkMediNicolasGuillaume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillaume8080/FrameworkMediNicolasGuillaume/issues"
+  },
+  "homepage": "https://github.com/guillaume8080/FrameworkMediNicolasGuillaume#readme"
+}
