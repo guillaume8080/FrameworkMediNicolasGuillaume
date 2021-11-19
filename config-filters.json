@@ -2,13 +2,17 @@
     "steps" : {
         "1": {
             "filter": "<filter_1>",
-            "params" : ['<extra_param_1>' , '<extra_param_2>' , ...],
+            "params" : ["<filter1>"],
             "next": "2"
         },
         "2": {
             "filter": "<filter_2>",
-            "params" : ['<extra_param_1>' , '<extra_param_2>' , ...],
+            "params" : ["<filter2>"],
             "next": "3"
+        },
+        "3": {
+            "filter": "<filter_3>",
+            "params" : ["<filter3>"]
         }
     }
 }    
