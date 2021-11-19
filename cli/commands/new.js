@@ -1,6 +1,4 @@
-const conf = new (require('conf'))();
-
-function newProject() {
+function newProject(projectName) {
     return
 }
 

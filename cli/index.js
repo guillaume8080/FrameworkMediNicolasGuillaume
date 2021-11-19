@@ -2,6 +2,10 @@
 
 const { program } = require('commander');
 const newProject = require('./commands/new.js');
+const addFilter = require('./commands/addFilter.js');
+const delFilter = require('./commands/delFilter.js');
+const addStep = require('./commands/addStep.js');
+const delStep = require('./commands/delStep.js');
 
 program
     .command('new')
