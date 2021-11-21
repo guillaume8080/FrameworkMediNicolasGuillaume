@@ -2,12 +2,12 @@
 Membres : Medi DEMIRDELEN Guillaume GOUY Nicolas BACA  
 
 
-#Introduction
+# Introduction
 Notre framework est destiné à implémenter l'architecture "Pipes-filters" facilement.  
 Il repose sur deux technlogies : nodeJs ainsi que JSON.  
 Dans le but de garantir une configuration de projet cohérente, il intègre l'outil de lignes de commandes ppft.  
 
-#Getting started
+# Getting started
 Le développeur a deux tâches à réaliser afin de monter son application.
 Définir des filtres dans le dossier /filters.
 Définir l'exécution de ces derniers dans le fichier config-filters.json 
@@ -39,7 +39,7 @@ Vous allez devoir définir l'enchaînement des filtres définis plus haut:
 Vous n'avez plus qu'à lancer l'application :  
 node app.js
 
-#API
+# API
 
 Les deux types de fichiers à définir reposent sur des nomenclatures particulières:  
 Les filters.js sont des modules nodeJs devant retourner une fonction.Cela s'implémente de la façon suivante:  
@@ -48,7 +48,7 @@ Les filters.js sont des modules nodeJs devant retourner une fonction.Cela s'impl
 Quant au fichier de conf config-filters.json, il repose sur le principe du document JSON : imbrication, etc...  
 Il doit absolument contenir un attribut objet steps. Chaque step définit doit être composé d'un id,d'un attribut filter, d'un attribut de type arry params. Il peut éventuellement contenir un attribut params définissant la step suivante à exécuter.
 
-#Errors
+# Errors
 
 affichage : `Le dossier filters n'existe pas.`  &#8594;  Cela implique que le dossier contenant les filtres n'existe pas. Vous avez mal créé votre projet.  
 affichage : `Le fichier ${config} n'existe pas` &#8594;  Cela implique que le fichier définissant les étapes à implémenter n'esxiste pas. Vous avez mal créé votre projet.  
@@ -57,7 +57,7 @@ affichage :  `{votreFichier} n'a pas de fonction`  &#8594;  Cela implique que le
 affichage : `Le fichier config-filters.json n'a pas de steps`  &#8594; Cela implique que votre frameWork n'a rien à exécuter, définniser au moins un filtre.  
 affichage : `Le filtre numéro ${step} n'a pas de nom filter` &#8594; Cela implique que votre fichier de conf est mal défini.  
 
-#Tools :
+# Tools :
 
 La commande ppft fait guise de gestionnaire de projet. Voici les commandes afin de parémétrer votre application:  
 
