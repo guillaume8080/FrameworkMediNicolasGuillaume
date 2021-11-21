@@ -2,10 +2,6 @@
 Membres : Medi DEMIRDELEN Guillaume GOUY Nicolas BACA  
 
 
-![image](https://github.com/guillaume8080/FrameworkMediNicolasGuillaume/blob/main/ressourcesReadMe/read.png) 
-
-
-
 #Introduction
 Notre framework est destiné à implémenter l'architecture "Pipes-filters" facilement.  
 Il repose sur deux technlogies : nodeJs ainsi que JSON.  
@@ -28,9 +24,9 @@ ppft add_filter
 Définisser 3 filtres , un prenant en paramètre un fichier dans votre système.Un second convertissant la ressources puis un troisième définissant la destination de la ressources.  
 ![image](https://github.com/guillaume8080/FrameworkMediNicolasGuillaume/blob/main/ressourcesReadMe/read.png)  
 
-![image](/home/guillaume/Bureau/Dev/TPDakilab/tpFramework/documentation/set.png)  
+![image](https://github.com/guillaume8080/FrameworkMediNicolasGuillaume/blob/main/ressourcesReadMe/set.png)  
 
-![image](/home/guillaume/Bureau/Dev/TPDakilab/tpFramework/documentation/writeFile.png)  
+![image](https://github.com/guillaume8080/FrameworkMediNicolasGuillaume/blob/main/ressourcesReadMe/writeFile.png)  
 
 
 
@@ -38,7 +34,7 @@ Rendez-vous dans le fichier de conf :
 config-filters.json   
 
 Vous allez devoir définir l'enchaînement des filtres définis plus haut:  
-![image](/home/guillaume/Bureau/Dev/TPDakilab/tpFramework/documentation/write.js.png)
+![image](https://github.com/guillaume8080/FrameworkMediNicolasGuillaume/blob/main/ressourcesReadMe/write.js.png)
 
 Vous n'avez plus qu'à lancer l'application :  
 node app.js
@@ -47,7 +43,7 @@ node app.js
 
 Les deux types de fichiers à définir reposent sur des nomenclatures particulières:  
 Les filters.js sont des modules nodeJs devant retourner une fonction.Cela s'implémente de la façon suivante:  
-![image](/home/guillaume/Bureau/Dev/TPDakilab/tpFramework/documentation/retourFonction.png)  
+![image](https://github.com/guillaume8080/FrameworkMediNicolasGuillaume/blob/main/ressourcesReadMe/retourFonction.png)  
 
 Quant au fichier de conf config-filters.json, il repose sur le principe du document JSON : imbrication, etc...  
 Il doit absolument contenir un attribut objet steps. Chaque step définit doit être composé d'un id,d'un attribut filter, d'un attribut de type arry params. Il peut éventuellement contenir un attribut params définissant la step suivante à exécuter.
@@ -65,7 +61,7 @@ affichage : `Le filtre numéro ${step} n'a pas de nom filter` &#8594; Cela impli
 
 La commande ppft fait guise de gestionnaire de projet. Voici les commandes afin de parémétrer votre application:  
 
-![image](/home/guillaume/Bureau/Dev/TPDakilab/tpFramework/documentation/ppft.png)  
+![image](https://github.com/guillaume8080/FrameworkMediNicolasGuillaume/blob/main/ressourcesReadMe/ppft.png)  
 
 
 
