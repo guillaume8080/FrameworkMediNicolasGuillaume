@@ -1,2 +1,2 @@
 # FrameworkMediNicolasGuillaume
-Membres : Medi Guillaume Nicolas
+Membres : Medi DEMIRDELEN Guillaume GOUY Nicolas BACA
